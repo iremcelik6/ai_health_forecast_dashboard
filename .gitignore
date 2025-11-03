@@ -1,0 +1,30 @@
+# Sanal ortam / cache
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Büyük ham veriler ve ara çıktılar
+!data/raw/
+!data/raw/**
+
+# Eğitimde üretilen ağır modeller ve scaler’lar
+!outputs/*.keras
+!outputs/lstm/
+!outputs/scaler_*.npy
+
+# Eğitim logları (istersen tutma)
+outputs/training_history*.csv
+
+# >>> Tutulmasını İSTEDİKLERİMİZ (whitelist)
+!outputs/predictions_state.csv
+!outputs/what_if_results.csv
+!outputs/model_metrics.csv
+!outputs/heatmap_*.png
+# HTML dashboard önizlemeleri kalsın
+!outputs/forecast_dashboard.html
+!outputs/forecast_map.html
+!outputs/dashboard_with_whatif.html
+
+# OS / IDE artık dosyaları
+.DS_Store
+*.swp
