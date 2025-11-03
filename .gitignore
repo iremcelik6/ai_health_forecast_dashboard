@@ -28,3 +28,4 @@ outputs/training_history*.csv
 # OS / IDE artık dosyaları
 .DS_Store
 *.swp
+outputs/*.keras
