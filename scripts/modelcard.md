@@ -91,7 +91,7 @@ If you use this model or codebase, please cite:
 **İrem Çelik**  
 🎓 Software Engineering — Istanbul Aydın University  
 🌐 [github.com/iremcelik6](https://github.com/iremcelik6)  
-📧 iremcelik@example.com  
+ 
 
 ---
 
