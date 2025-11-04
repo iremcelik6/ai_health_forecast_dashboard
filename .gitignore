@@ -12,15 +12,15 @@ __pycache__/
 !outputs/lstm/
 !outputs/scaler_*.npy
 
-# Eğitim logları (istersen tutma)
+# Eğitim logları 
 outputs/training_history*.csv
 
-# >>> Tutulmasını İSTEDİKLERİMİZ (whitelist)
+# >>> Tutulması gerekenler
 !outputs/predictions_state.csv
 !outputs/what_if_results.csv
 !outputs/model_metrics.csv
 !outputs/heatmap_*.png
-# HTML dashboard önizlemeleri kalsın
+# HTML dashboard önizlemeleri
 !outputs/forecast_dashboard.html
 !outputs/forecast_map.html
 !outputs/dashboard_with_whatif.html
